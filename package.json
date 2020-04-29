@@ -1,0 +1,15 @@
+{
+  "name": "webpack-experiment",
+  "version": "1.0.0",
+  "description": "Webpack experiment v.1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "JS",
+    "webpack"
+  ],
+  "author": "Igor Pahota <pahota.igor.vl@gmail.com>",
+  "license": "ISC"
+}
