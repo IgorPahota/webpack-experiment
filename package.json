@@ -2,14 +2,35 @@
   "name": "webpack-experiment",
   "version": "1.0.0",
   "description": "Webpack experiment v.1.0.0",
-  "main": "index.js",
+  "private": true,
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "dev": "webpack --mode development",
+    "build": "webpack --mode production",
+    "watch": "webpack --mode development --watch",
+    "start": "webpack-dev-server --mode development --open"
   },
   "keywords": [
     "JS",
     "webpack"
   ],
   "author": "Igor Pahota <pahota.igor.vl@gmail.com>",
-  "license": "ISC"
+  "license": "ISC",
+  "devDependencies": {
+    "clean-webpack-plugin": "^3.0.0",
+    "copy-webpack-plugin": "^5.1.1",
+    "css-loader": "^3.5.3",
+    "csv-loader": "^3.0.3",
+    "file-loader": "^6.0.0",
+    "html-webpack-plugin": "^4.2.1",
+    "mini-css-extract-plugin": "^0.9.0",
+    "style-loader": "^1.2.1",
+    "webpack": "^4.43.0",
+    "webpack-cli": "^3.3.11",
+    "webpack-dev-server": "^3.10.3",
+    "xml-loader": "^1.2.1"
+  },
+  "dependencies": {
+    "jquery": "^3.5.0",
+    "normalize.css": "^8.0.1"
+  }
 }
