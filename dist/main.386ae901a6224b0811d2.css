@@ -1,0 +1,52 @@
+@font-face {
+    font-family: 'Roboto';
+    src: url(03523cf578d69fa923226ff457b92d90.ttf) format('truetype');
+}
+/* Добавляем шрифты для вебпака*/ /* Подключаем normalize css из node_modules*/
+
+body {
+    font-family: 'Roboto', sans-serif;
+}
+
+.container {
+    padding-top: 2rem;
+    max-width: 1000px;
+    margin: 0 auto;
+    padding-bottom: 2rem;
+}
+
+h1 {
+    text-align: center;
+}
+
+.logo {
+    background-image: url(47692505d122dbcae490be2492a60b2e.png);
+    background-size: cover;
+    height: 200px;
+    width: 200px;
+    margin: 0 auto;
+}
+
+.code {
+    color: #89429c;
+}
+.box {
+  padding: 1rem;
+  border-radius: 5px;
+  margin-top: 1rem;
+  border: 1px solid #ccc;
+}
+.box h2 {
+  text-align: center;
+  color: darkblue;
+}
+
+.card {
+  padding: 1rem;
+  border-radius: 5px;
+  margin-top: 1rem;
+  border: 1px solid #ccc; }
+  .card h2 {
+    text-align: center;
+    color: darkorange; }
+

@@ -9,6 +9,7 @@ body {
     padding-top: 2rem;
     max-width: 1000px;
     margin: 0 auto;
+    padding-bottom: 2rem;
 }
 
 h1 {
@@ -24,5 +25,5 @@ h1 {
 }
 
 .code {
-    color: blueviolet;
+    color: #89429c;
 }
